@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - main
+
+name: Say Hello World
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print
+      id: Print
+      run: |
+          echo 'Hello World!'
