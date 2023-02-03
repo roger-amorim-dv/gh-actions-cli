@@ -1,4 +1,6 @@
-name: Say-Hello-World
+on: workflow_dispatch
+
+name: Say Hello World
 
 jobs:
   deploy:
