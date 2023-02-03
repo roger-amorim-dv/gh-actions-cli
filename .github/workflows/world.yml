@@ -1,9 +1,4 @@
-on:
-  push:
-    branches:
-      - main
-
-name: Say Hello World
+name: Say-Hello-World
 
 jobs:
   deploy:
